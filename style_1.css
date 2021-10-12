@@ -1,0 +1,4705 @@
+body{
+	background-color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+                      /*Главная блок сверху*/
+
+.flex_center{
+	display: flex;
+	justify-content: center;
+}
+
+
+.glav_header{
+	width: 90%;
+	height: auto;
+	background-color:black;
+	margin-top: 1%;
+	display: flex;
+	align-items: center;
+	perspective: 1000px;
+	overflow: hidden;
+	border-bottom-style: solid;
+	border-color:#525aa5;
+	box-sizing: border-box;
+	border-width: 0.1vh;
+}
+
+
+
+.icon_for_youtube_channel{
+	/*width: 14%;*/
+	width: 100%;
+	height: auto;
+	/*background-image: url(image/image_1.png);
+	background-size: cover;
+	background-position: center;*/
+	border-color: rgb(255,255,255,0.8);
+	border-width: 2px;
+	margin-left: 4%;
+
+
+}
+.galv_img_header{
+	width: 20%;
+	height: auto;
+	box-sizing: border-box;
+}
+
+
+.link_channel{
+	width: 20%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	margin-left: 2% ;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2.3vw;
+	line-height: 240%;
+	overflow: hidden;
+	transition-duration: 350ms;
+	transition-property: transform box-shadow color;
+	transition-timing-function: ease-out;
+	box-shadow: 0px 0px 100px 4px white;
+}
+.link_channel:hover{
+	transform: scale(0.9);
+	box-shadow: 0px 0px 80px 4px red;
+	border-color: red;
+	color: rgb(255,255,255, 0.7);
+	
+	
+
+}
+
+
+.link_for_vk{
+	width: 20%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: black;
+	border-radius: 30px;
+	text-align: center;
+	background-color: #525aa5;
+	color: black;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2.3vw;
+	line-height: 240%;
+	overflow: hidden;
+	margin-left: 1%;
+	transition-duration: 350ms;
+	box-shadow: 0px 0px 100px 15px #525aa5;
+	
+}
+.link_for_vk:hover{
+	transform: scale(0.9);
+	box-shadow: 0px 0px 80px 4px red;
+	border-color: red;
+	color: red;
+}
+
+.link_for_vk a{
+	color: black;
+	transition-duration: 350ms;
+}
+.link_for_vk a:hover{
+	color: red;
+}
+
+
+
+.opisanie_site{
+	width: 30%;
+	height: auto;
+	background-color: transparent;
+	margin-left: 5%;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 2px;
+	text-align: center;
+	transition-duration: 500ms;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2vw;
+	overflow: hidden;
+	line-height: 120%;
+	box-sizing: border-box;
+	padding-top: 20px;
+	
+	
+
+	
+}
+
+
+          /*Навигация сайта*/
+		  
+.block_for_navigation{
+	border-color: white;
+	width: 90%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 1%;
+	margin-bottom: 3%;
+}
+
+.navigation_border{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.navigation{
+	width: 18%;
+	height: auto;
+	border-bottom-style: solid;
+	border-width: 0.1vw;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	margin-right: 3%;
+	font-size: 2vw;
+	line-height: 3.9vw;
+	transition-duration: 300ms;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+}
+.navigation:nth-child(4){
+	margin: 0;
+}
+.navigation:nth-child(1){
+	text-shadow: 
+	1px 1px 0px grey,
+	2px 2px 0px grey,
+	3px 3px 0px grey,
+	4px 4px 0px grey,
+	5px 5px 0px grey,
+	6px 6px 0px grey;
+	box-shadow: 0vw 2vw 5.0vw grey;
+}
+
+.navigation:hover{
+	transform: scale(0.9);
+}
+
+
+		  
+
+          /*Блок на бади после хедера*/
+		  
+.flex_body{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}	
+.block_img_body{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	margin: 1%;
+	display: flex;
+	perspective: 1000px;
+	overflow: hidden;
+	border-bottom-style: solid;
+	border-color: red;
+	border-width: 0.1vw;
+}	
+
+.empty_test{
+	border-color: white;
+	width: 100%;
+	height: auto;
+}
+
+.img_you_are_empty{
+	margin: 1%;
+	width: 40%;
+	height: auto;
+	border-color: white;
+	position:relative;
+	perspective: 1000px;
+	overflow: hidden;
+}  
+.text_for_you_are_empty{
+	position: absolute;
+	width: 59%;
+	height: auto;
+	border-color: white;
+	top: 1%;
+	left: 29%;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 4vw;
+	transform: rotateY(28deg) rotateX(10deg);
+}
+.peaple{
+	font-size: 120%;
+	color: #ef0001;
+}
+
+.block__for_neon{
+	margin-top: 1%;
+	width: 55%;
+	height: auto;
+	border-color: white;
+	transform: rotate(3deg) rotateX(13deg) rotateY(-10deg);
+	float: right;
+	
+}
+.text_for_static{
+	width: 50%;
+	height: auto;
+	text-align: center;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #ef0001;
+	margin: 0 auto;
+	margin-top: 2%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3.3vw;
+}
+.channel{
+	color: #ef0001;
+}
+.block_progres_bar{
+	border-color: white;
+	width: 93%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.progres_bar{
+	width:55%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.progres_bar:before{
+	position: absolute;
+	top:0;
+	width: 60%;
+	height: 3vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.text_progres{
+	width: 60%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 2.1vw;
+	line-height: 3vw;
+}
+
+
+.text_for_progresbar{
+	float: right;
+	width: 26%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.4vw;
+	margin-top: 3%;
+	margin-right: 10%;
+}
+.text_progres1{
+	width: 90%;
+	height: 38px;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 2.1vw;
+	line-height: 3vw;
+}
+.progres_bar1:before{
+	position: absolute;
+	top:0;
+	width: 90%;
+	height: 3vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.progres_bar1{
+	width:55%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.text_for_progresbar1{
+	float: right;
+	width: 26%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.4vw;
+	margin-top: 3%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+.text_progres2{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 2.1vw;
+	line-height: 3vw;
+}
+.progres_bar2:before{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 3vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.progres_bar2{
+	width:55%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.text_for_progresbar2{
+	float: right;
+	width: 36%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.3vw;
+	margin-top: 3%;
+}
+.text_progres3{
+	width: 38%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 2.1vw;
+	line-height: 3vw;
+}
+.progres_bar3:before{
+	position: absolute;
+	top:0;
+	width: 38%;
+	height: 3vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.progres_bar3{
+	width:55%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.text_for_progresbar3{
+	float: right;
+	width: 16%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.3vw;
+	margin-top: 3%;
+	margin-right: 20%;
+}
+
+.progres_bar4{
+	width:30%;
+	height: height;
+
+	border-width: 2px;
+	border-color: white;
+	border-radius: 20px;
+	margin-top: 2%;
+	float: left;
+	margin-left: 19%;
+	position: relative;
+	z-index: 2;
+}
+
+.img_in_imgae_tree{
+	width: 100%;
+	height: auto;
+}
+
+
+
+      /*Блок второй после первого в бади*/
+.block_video{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	perspective: 1000px;
+	border-color: white;
+	padding: 1%;
+	box-sizing: border-box;
+}  
+.block_left_for_video{
+	width: 50%;
+	height: 27vw;
+	border-color:white;
+	margin-left: 1%;
+}
+
+.video{
+	margin-left: 3%;
+	margin-top: 9%;
+	transform: rotateX(20deg) rotate(-8deg);
+	border-color: #e8e2e6;
+	border-style: solid;
+	border-top-color: black;
+	border-left-color: black;
+	border-radius: 10px;
+	border-width: 4px;
+	box-shadow: 5px 5px 40px #e8e2e6;
+	width: 90%;
+	height: auto;
+}
+
+.block_right_for_image{
+	width: 49%;
+	height: auto;
+	border-color:  white;
+	box-sizing: border-box;
+	position: relative;
+	top: 0;
+	perspective: 1000px;
+}
+
+.img_ruk{
+	width: 100%;
+	height: auto;
+}
+
+
+.text_tishe_on_vas_uslishet{
+	border-color: white;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 5vh;
+	box-sizing: border-box;
+	line-height: 5vh;
+	transform: rotateY(20deg);
+	margin-bottom: 2%;
+}
+
+.tishe{
+	color: #e8e2e6;
+}
+
+
+.iframe{
+	width: 100%;
+	height: 20vw;
+}
+
+
+           /*Блок после Рюка и видео*/
+.block_for_text_history{
+	margin-top: 1%;
+	width: 90%;
+	height: auto;
+	background-color: black;
+	box-sizing: border-box;
+	padding: 5px;
+	perspective: 1000px;
+	overflow: hidden;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 0.1vw;
+	border-color: #e8e2e6;
+	
+}	
+
+.left_block_image{
+	width: 400px;
+	height: 500px;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+}	   
+
+
+.img_left_block_img{
+	width: 100%;
+	height: auto;
+}
+
+.left_block_image img{
+	width: 100%;
+	height: auto;
+}
+
+.right_block_text{
+	float: right;
+	border-color: white;
+	width: 59%;
+	height: auto;
+	transform: rotateY(-20deg);
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+
+
+
+.avtorskie_istorii{
+	color: #e8e2e6;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 40px;
+	border-style: solid;
+	line-height: 40px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 5vh;
+	box-shadow: 5px 5px 100px 5px #e8e2e6;
+	animation-name: history;
+	animation-duration: 900ms;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forward;
+	animation-direction: alternate;
+	
+	
+}
+
+
+
+
+.crayze_history{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border-color: red;
+}
+
+.crrayze_history_one{
+	width: 40%;
+	border-style: solid;
+	border-color: blue;
+	box-sizing:border-box;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vw;
+	line-height: 40px;
+	transition-duration: 300ms;
+	transition-timing-function: easy-out;
+	margin: 0 auto;
+	margin-top: 3%;
+	
+}
+
+.crrayze_history_one:hover{
+	color: white;
+	background-color:black;
+	border-color: white;
+	transform: scale(0.9);
+
+}
+
+             /*Четвертый блок из бади*/
+			 
+.block_for_in_body{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	overflow: hidden;
+	perspective: 1000px;
+	border-bottom-style: solid;
+	border-color: #d7d4d6;
+	border-width: 0.1vw;
+}	
+
+.left_block_for_text_for{
+	width: 50%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	transform: rotateY(14deg);
+	margin-top: 3%;
+	margin-bottom: 3%;
+}	
+
+
+.text_for_sponsor_button{
+	border-color: white;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 3vw;
+}	 
+
+.red_color_for_spinsor{
+	color: #e8e2e6;
+	font-size: 4vw;
+	animation-name: sponsor;
+	animation-duration: 7s;
+	animation-fill-mode: forward;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.button_for_spinsor{
+	width: 80%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vw;
+	line-height: 120%;
+	transition-duration: 500ms;
+}
+
+.button_for_spinsor:hover{
+	transform: scale(0.9);
+	background-color: white;
+	color: black;
+}
+.right_block_for_text_for{
+	width: 50%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: right;
+	
+}
+
+.image_anubis{
+	width: 100%;
+	height: auto;
+}
+
+       /*Пятый блок в хедере*/
+	   
+.five_block_for_body{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	overflow: hidden;
+	box-sizing: border-box;
+	perspective: 1000px;
+	border-bottom-style: solid;
+	border-color: #d0cdcf;
+	border-width: 0.1vw;
+}   
+
+.block_left_for_five_body{
+	width: 40%;
+	height: auto;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	transform: rotateY(20deg);
+	
+}
+
+.block_for_left_image_five{
+	width: 100%;
+	height: auto;
+}
+
+
+.block_right_for_five_body{
+	margin-top: 10%;
+	width: 50%;
+	height: auto;
+	float: right;
+	border-color: white;
+	box-sizing: border-box;
+	perspective: 1000px;
+	transform: rotateX(20deg);
+}
+
+.text_for_five_block_right{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vw;
+	line-height: 170%;
+}
+
+.five_block_color{
+	color: #d0cdcf;
+}
+
+.button_for_sotrudnechestvo{
+	width: 50%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 170%;
+	font-size: 4vw;
+	margin: 0 auto;
+	transition-duration: 500ms;
+}
+
+.button_for_sotrudnechestvo:hover{
+	transform: rotateX(50deg) scale(1.1) ;
+	
+}
+
+
+            /*Шестой блок на сайте*/
+			
+			
+.six_block{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	padding-bottom: 4%;
+	border-bottom-style: solid;
+	border-color: #d0cdcf;
+	border-width: 0.1vw;
+
+}			
+
+.six_top_block_img{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 1%;
+}
+
+.image_8_for_six_block{
+	width: 100%;
+	height: auto;
+}
+
+.text_six_block_img_group{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2vw;
+	word-spacing: 15px;
+}
+
+.button_for_group_vk{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 2%;
+	display: flex;
+	justify-content: center;
+	perspective: 1000px;
+}
+.button_for_group{
+	width: 20%;
+	height: auto;
+	border-style: solid;
+	border-color: #d0cdcf;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px #d0cdcf;
+}
+
+.button_for_group:hover{
+	transform: scale(0.9);
+	color: #6D6D6D;
+}
+
+.button_vasi_history{
+	width: 23%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	margin-right: 2%;
+	margin-left: 2%;
+	transform: scale(1.1);
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 10px white;
+	position: relative;
+	overflow: hidden;
+}
+.button_vasi_history:before{
+	top: 100%;
+	left: 0;
+	background-color: white;
+	width: 100%;
+	height: 500px;
+	min-height: 30px;
+	position: absolute;
+	content: "";
+	transition-duration: 500ms;
+}
+.button_vasi_history:hover:before{
+	top: 70%;
+	background-color: #d0cdcf;
+}
+
+
+.button_vasi_history:hover{
+	transform: scale(1.0);
+	border-color: #d0cdcf;
+	box-shadow: 0px 0px 10px #d0cdcf;
+	color: #6D6D6D;
+}
+
+.button_for_video_vk{
+	width: 20%;
+	height: auto;
+	border-style: solid;
+	border-color: #d0cdcf;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px #d0cdcf;
+}
+.button_for_video_vk:hover{
+	transform: scale(0.9);
+	color: #6D6D6D;
+}
+
+        /*Седьмой блок*/
+.seven_block{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	padding: 1%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-sizing:border-box;
+	perspective: 1000px;
+	
+}		
+
+
+.seven_pob_block{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	perspective: 1000px;
+}
+.seven_block_for_img_one{
+	width: 25%;
+	height: auto;
+	transform: rotateY(30deg) translateZ(-110px);
+	color: #d0cdcf;
+	border-bottom-style: solid;
+	border-color: #d0cdcf;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vw;
+}
+
+.image_9_one{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.seven_block_for_img_two{
+	width: 25%;
+	height: auto;
+	transform: rotateY(20deg);
+	border-bottom-style: solid;
+	border-color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vw;
+	color: white;
+}
+
+.image_9_two{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.seven_block_for_img_three{
+	width: 25%;
+	height: auto;
+	transform: rotateY(15deg) translateZ(110px);
+	border-bottom-style: solid;
+	border-color: redseven_block;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vw;
+	color: #d0cdcf;
+}
+
+.image_9_three{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+
+     /* Восьмой блок */
+
+.eight_block{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	border-bottom-style: solid;
+	border-color: #d0cdcf;
+	border-width: 0.1vw;
+}
+
+.text_for_progres_bar_severn{
+	color: white;
+	width: 70%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 5%;
+	font-size: 4vw;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 160%;
+}
+
+.theart{
+	color: red;
+	border-bottom-style: solid;
+	border-color: red;
+	border-width: 1px;
+	letter-spacing: 5px;
+	
+}
+
+.progres_bar_seven{
+	width: 50%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+
+	border-width: 2px;
+	margin: 0 auto;
+	margin-top: 3%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	border-width: 1px;
+	line-height: 450%;
+}
+
+.progres_bar_seven:before{
+	width: 63%;
+	position: absolute;
+	border-top-left-radius: 80%;
+	border-top-right-radius: 20%;
+	height: 100%;
+	top: 0;
+	left: 20%;
+	content: "";
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.sto_sabov{
+	position: relative;
+	border-color: black;
+	color: white;
+	border-width: 2px;
+	left: 30%;
+	font-size: 3vw;
+	font-family: 'Caveat', cursive;
+}
+
+.button_eight_block{
+	width: 30%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 4%;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 5vw;
+	transition-duration: 400ms;
+}
+
+.button_eight_block:hover{
+	transform: scale(0.9);
+	color: red;
+	box-shadow: 0px 0px 100px 2px #d0cdcf;
+}
+
+.eight_block_image_bottom{
+	width: 50%;
+	height: auto;
+	border-color: white;
+	margin: 0 auto;
+	margin-top: 2%;
+	box-sizing: border-box;
+}
+
+.eight_image_in_image{
+	width: 100%;
+	height: auto;
+}
+
+
+.text_for__eight_block{
+	width: 50%;
+	height: auto;
+
+	border-color: white;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 3%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2vw;
+	text-align: center;
+	line-height: 200%;
+}
+
+.splesh{
+	color: red;
+}
+
+
+             /*Девятий блок*/
+.nine_block{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin-top: 1%;
+	padding: 1%;
+	display: flex;
+	overflow: hidden;
+	box-sizing: border-box;
+}	
+.border_img_for_one{
+	width: 20%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	transform: scale(0.5);
+	left: 23%;
+	
+}	
+.border_img_for_two{
+	width: 20%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
+	transform: scale(0.6);
+	left: 15%;
+}	
+
+.border_img_for_three{
+	width: 20%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 3;
+	transform: scale(0.7);
+	left: 9%;
+	
+}	
+
+.border_img_for_for{
+	width: 20%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 4;
+	transform: scale(0.8);
+	left: 4%;
+	
+}	
+
+.border_img_for_five{
+	width: 20%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 5;
+	transform: scale(0.9);
+	left: 1%;
+	
+}	
+.border_img_for_six{
+	width: 20%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 6;
+	
+}	
+
+.block_nine_for_text{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+
+
+}
+
+.bogatoe_voobrazetia{
+	width: 60%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: #d0cdcf;
+	box-sizing: border-box;
+	border-width: 2px;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vw;
+	text-align: center;
+}
+.probel{
+	color: #d0cdcf;
+}
+.text_by_Dmitriy{
+	border-color: white;
+	width: 50%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2vw;
+	font-family: 'Amatic SC', cursive;
+}
+
+.image_in_nine_one{
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+
+.nine_block_two{
+	width: 90%;
+	height: auto;
+	background-color: black;
+	padding: 1%;
+	display: flex;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+
+     /*Десятий последний блок для указания авторства*/
+	 
+.ten_block{
+	width: 90%;
+	height: auto;
+	border-radius: 8px;
+	background-color: black;
+	margin-top: 1%;
+	padding: 1%;
+	box-sizing: border-box;
+}	 
+
+.top_text_for_tenblock_glav{
+	width: 50%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 0.1vh;
+	color: red;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vw;
+	margin: 0 auto;
+	
+}
+
+
+.block_ten_in_block{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+
+
+.img_for_text_for_ten_blockk{
+	width: 26%;
+	height: auto;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: red;
+	border-width: 0.1vw;
+	border-left-width: 0.3vw;
+	border-top-left-radius: 12vw;
+	margin-top: 1%;
+	transition-duration: 500ms;
+	
+}
+
+.img_for_text_for_ten_blockk:hover{
+	transform: scale(0.8) rotate(-5deg);
+	border-color: white;
+}
+
+
+.img_ing_nine_block{
+	width: 100%;
+	height: auto;
+	
+}
+
+.center_text_for_tenblock{
+	width: 30%;
+	height: auto;
+	border-color: white;
+	color: white;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 2vw;
+	box-sizing: border-box;
+	padding-top: 4vw;
+}
+
+.my_vk{
+	color: red;
+	font-size: 2.4vw;
+}
+
+a{
+
+	color: white;
+	text-decoration: none;
+	display: block;
+
+}
+.right_text_for_tenblock{
+	width: 30%;
+	height: auto;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: red;
+	margin-top: 2%;
+	margin-left: 8%;
+	color: red;
+	font-family: 'Amatic SC', cursive;
+	font-size: 4vw;
+	text-align: center;
+	line-height: 4vw;
+	box-sizing: border-box;
+	padding-top: 3vw;
+	border-width: 0.1vw;
+	border-right-width: 0.3vw;
+}
+
+.cpec_dlya{
+	font-size: 3vw;
+}
+
+.dlya_channel{
+	font-size: 3vw;
+	color: white;
+}
+
+/*@media screen and (min-width:1700px){
+	.block_img_body{
+	width: 90%;
+	height: 530px;
+	background-color: black;
+	border-radius: 8px;
+	margin: 1%;
+	display: flex;
+	perspective: 1000px;
+	overflow: hidden;
+	}
+
+	.block_progres_bar{
+	border-color: white;
+	width: 93%;
+	height: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+	
+	.block_right_for_image{
+	width: 700px;
+	height: 400px;
+	border-color:  white;
+	background-image: url(image/image_4.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transform: rotateY(-5deg);
+	position: relative;
+	top: 0;
+	left: 5%;
+	}
+	
+	
+	.block__for_neon{
+	margin-top: 1%;
+	width: 55%;
+	height: 470px;
+	border-color: white;
+	transform: rotate(3deg) rotateX(13deg) rotateY(-10deg);
+	float: right;
+	position: relative;
+	left: 10%;
+	}
+	
+	.video{
+	margin-left: 3%;
+	margin-top: 9%;
+	transform: rotateX(20deg) rotate(-8deg);
+	border-color:red;
+	border-style: solid;
+	border-top-color: black;
+	border-left-color: black;
+	border-radius: 10px;
+	border-width: 4px;
+	box-shadow: 5px 5px 40px red;
+	width: 600px;
+	}
+	
+	
+	
+	
+
+
+}*/
+@media screen and (min-width:416px) and (max-width: 768px){
+	
+	
+	.glav_header{
+	width: 100%;
+	height: auto;
+	background-color:black;
+	margin-top: 1%;
+	border-radius: 8px;
+	display: block;
+	align-items: center;
+	perspective: 1000px;
+	overflow: hidden;
+	}
+	
+	.opisanie_site{
+	width: 90%;
+	height: auto;
+	background-color: transparent;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 2px;
+	text-align: center;
+	transition-duration: 500ms;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 5vw;
+	overflow: hidden;
+	line-height: 120%;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin: 0 auto;
+	margin-bottom: 4%;
+}
+	
+	.link_channel{
+	width: 50%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 5vw;
+	line-height: 240%;
+	overflow: hidden;
+	transition-duration: 350ms;
+	transition-property: transform box-shadow color;
+	transition-timing-function: ease-out;
+	box-shadow: 0px 0px 100px 4px white;
+	float: left;
+	margin-bottom: 5%;
+	}
+	
+	.link_for_vk{
+	width: 40%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: black;
+	border-radius: 30px;
+	text-align: center;
+	background-color: #525aa5;
+	color: black;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 5vw;
+	line-height: 240%;
+	overflow: hidden;
+	float: right;
+	margin-right: 2%;
+	transition-duration: 350ms;
+	box-shadow: 0px 0px 100px 15px #525aa5;
+	
+	}
+	
+	.galv_img_header{
+	width: 60%;
+	height: auto;
+	box-sizing: border-box;
+	margin: 0 auto;
+	}
+	
+	
+	
+	/*Блок после хедера*/
+	.block_img_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	display: block;
+	perspective: 1000px;
+	overflow: hidden;
+	margin: 0;
+	margin-top: 1%;
+	}	
+	.img_you_are_empty{
+	width: 60%;
+	height: 450px;
+	border-color: white;
+	background-image: url(image/image_2.png);
+	background-size: cover;
+	background-position: center;
+	position:relative;
+	perspective: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+	margin-top: 4%;
+	}  
+	.text_for_you_are_empty{
+	position: absolute;
+	width: 59%;
+	height: 130px;
+	border-color: white;
+	top: 1px;
+	left: 33%;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 300%;
+	transform: rotate(3deg) rotateX(13deg) rotateY(-10deg);
+	}
+	
+	.text_for_static{
+	width: 50%;
+	height: auto;
+	text-align: center;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #ef0001;
+	margin: 0 auto;
+	margin-top: 2%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6.3vw;
+	}
+	
+	.block__for_neon{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	transform: none;
+	}
+	
+	.block_progres_bar{
+	border-color: white;
+	width: 93%;
+	height: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+	}   
+	.block_progres_bar{
+	border-color: white;
+	width: 93%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.progres_bar{
+	width:55%;
+	height: 8vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.progres_bar:before{
+	position: absolute;
+	top:0;
+	width: 60%;
+	height: 8vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.text_progres{
+	width: 60%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 4.0vw;
+	line-height: 8vw;
+}
+
+
+.text_for_progresbar{
+	float: right;
+	width: 29%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6.4vw;
+	margin-top: 3%;
+	margin-right: 9%;
+}
+.text_progres1{
+	width: 90%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 4.0vw;
+	line-height: 8vw;
+}
+.progres_bar1:before{
+	position: absolute;
+	top:0;
+	width: 90%;
+	height: 8vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.progres_bar1{
+	width:55%;
+	height: 8vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.text_for_progresbar1{
+	float: right;
+	width: 26%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6.4vw;
+	margin-top: 3%;
+	margin-right: 12%;
+}
+
+.text_progres2{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 4.0vw;
+	line-height: 8vw;
+}
+.progres_bar2:before{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 8vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.progres_bar2{
+	width:55%;
+	height: 8vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.text_for_progresbar2{
+	float: right;
+	width: 29%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 4.4vw;
+	margin-top: 2%;
+	margin-right: 9%;
+	
+}
+.text_progres3{
+	width: 38%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: center;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 4.0vw;
+	line-height: 8vw;
+}
+.progres_bar3:before{
+	position: absolute;
+	top:0;
+	width: 38%;
+	height: 8vw;
+	background-color: #ef0001;
+	content: "";
+	z-index: 1;
+}
+
+.progres_bar3{
+	width:55%;
+	height: 8vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	float: left;
+	box-shadow: 0px 0px 15px 0px white;
+}
+
+.text_for_progresbar3{
+	float: right;
+	width: 16%;
+	height: auto;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6.4vw;
+	margin-top: 1%;
+	margin-right: 22%;
+}
+
+.progres_bar4{
+	width:30%;
+	height: height;
+
+	border-width: 2px;
+	border-color: white;
+	border-radius: 20px;
+	margin-top: 2%;
+	float: left;
+	margin-left: 19%;
+	position: relative;
+	z-index: 2;
+}
+
+.img_in_imgae_tree{
+	width: 100%;
+	height: auto;
+}
+
+	
+	/*Третий блок если по счету*/
+	
+	.block_video{
+	width: 100%;
+	height: 1300px;
+	background-color: black;
+	display: block;
+	flex-wrap: wrap;
+	overflow: hidden;
+	perspective: 1000px;
+	border-radius: 8px;
+	margin-top: 1%;
+	}  
+	
+	.block_left_for_video{
+	width: 99%;
+	height: 550px;
+	border-color:white;
+	}
+	
+	.video{
+	/*transform: rotateX(20deg) rotate(-8deg);*/
+	transform: none;
+	border-color:red;
+	border-style: solid;
+	border-top-color: black;
+	border-left-color: black;
+	border-radius: 10px;
+	border-width: 4px;
+	box-shadow: 5px 5px 40px red;
+	width: 96%;
+	}
+	
+	.iframe{
+	width: 100%;
+	height: 443px;
+	}
+	
+	
+	.block_right_for_image{
+	width: 100%;
+	height: 500px;
+	border-color:  white;
+	
+	margin: 0 auto;
+	/*transform: rotateY(-5deg);*/
+	transform: none;
+	}
+	
+	.text_tishe_on_vas_uslishet{
+	border-color: white;
+	width: 100%;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 400%;
+	box-sizing: border-box;
+	line-height: 40px;
+	transform: rotateY(20deg);
+	}
+	
+	.block_for_text_history{
+	margin-top: 1%;
+	width: 100%;
+	height: 1350px;
+	background-color: black;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding: 5px;
+	perspective: 1000px;
+	overflow: hidden;
+	}	
+	
+	.left_block_image{
+	width: 100%;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+	}	   
+	
+	.right_block_text{
+	float: right;
+	border-color: white;
+	width: 100%;
+	height: auto;
+	transform: rotateY(-20deg);
+	transform: none;
+	margin-top: 3%;
+	}
+	
+	.avtorskie_istorii{
+	color:red;
+	width: 99%;
+	margin: 0 auto;
+	font-size: 50px;
+	border-style: solid;
+	line-height: 40px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 7vh;
+	box-shadow: 5px 5px 100px 5px red;
+	}
+	
+	.crayze_history{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border-color: red;
+	margin-top: 10%;
+	}
+	
+	.crrayze_history_one{
+	width: 100%;
+	border-style: solid;
+	border-color: blue;
+	box-sizing:border-box;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	line-height: 40px;
+	transition-duration: 300ms;
+	transition-timing-function: easy-out;
+	margin: 0 auto;
+	margin-top: 3%;
+	}
+	
+	/*Блок с четвертим блоков в боди*/
+	.block_for_in_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	overflow: hidden;
+	perspective: 1000px;
+	border-radius: 8px;
+	}	
+	
+	.left_block_for_text_for{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	transform: rotateY(14deg);
+	transform: none;
+	margin-top: 1%;
+	}	
+	
+	.right_block_for_text_for{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: right;
+	
+	}
+	
+	.text_for_sponsor_button{
+	border-color: white;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 10vw;
+	}	 
+	
+	.red_color_for_spinsor{
+	color:red;
+	font-size: 12vw;
+	animation-name: sponsor;
+	animation-duration: 7s;
+	animation-fill-mode: forward;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	}
+	
+	.button_for_spinsor{
+	width: 80%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 10vw;
+	line-height: 120%;
+	transition-duration: 500ms;
+	}
+	
+	.image_anubis{
+	width: 100%;
+	height: auto;
+	}
+	
+	
+	.five_block_for_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	border-radius: 8px;
+	overflow: hidden;
+	box-sizing: border-box;
+	perspective: 1000px;
+	padding-bottom: 8%;
+	}	   
+	
+	.block_left_for_five_body{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	transform: rotateY(20deg);
+	
+	}
+	
+	.block_right_for_five_body{
+	margin-top: 10%;
+	width: 100%;
+	height: auto;
+	float: right;
+	border-color: white;
+	box-sizing: border-box;
+	perspective: 1000px;
+	transform: rotateX(20deg);
+	}
+	
+	.text_for_five_block_right{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 7vw;
+	line-height: 170%;
+	}
+	
+	.button_for_sotrudnechestvo{
+	width: 50%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 170%;
+	font-size: 9vw;
+	margin: 0 auto;
+	transition-duration: 500ms;
+	}
+	
+	.six_block{
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+	margin-top: 1%;
+	border-radius: 8px;
+	}			
+	
+	.six_top_block_img{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 1%;
+	}
+	
+	.image_8_for_six_block{
+	width: 100%;
+	height: auto;
+	}
+	
+	.text_six_block_img_group{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vw;
+	word-spacing: 15px;
+	}
+	
+	
+	
+	.button_for_group_vk{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 2%;
+	display: block;
+	justify-content: center;
+	perspective: 1000px;
+	}
+	
+	.button_for_group{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color: red;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px red;
+	box-sizing: border-box;
+	}
+	
+	.button_vasi_history{
+	width: 90%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	margin: 0 auto;
+	margin-top: 4%;
+	transform: scale(1.1);
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 10px white;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+	
+	.button_for_video_vk{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color: red;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px red;
+	margin-top: 4%;
+	box-sizing: border-box;
+	}
+	
+	/*Седьмой блок*/
+	.seven_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 7px;
+	margin-top: 1%;
+	padding: 1%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-sizing:border-box;
+	perspective: 1000px;
+	}	
+
+	.seven_pob_block{
+	width: 100%;
+	display: block;
+	perspective: 1000px;
+	}
+	
+	.seven_block_for_img_one{
+	width: 90%;
+	height: auto;
+	transform: rotateY(30deg) translateZ(-110px);
+	transform: none;
+	color: red;
+	border-bottom-style: solid;
+	border-color: red;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	margin: 0 auto;
+	}
+	
+	.seven_block_for_img_two{
+	width: 90%;
+	height: auto;
+	transform: rotateY(20deg);
+	transform: none;
+	border-bottom-style: solid;
+	border-color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	color: white;
+	margin: 0 auto;
+	margin-top: 5%;
+	}
+	
+	.seven_block_for_img_three{
+	width: 90%;
+	height: auto;
+	transform: rotateY(15deg) translateZ(110px);
+	transform: none;
+	border-bottom-style: solid;
+	border-color: redseven_block;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	color: red;
+	margin: 0 auto;
+	margin-top: 5%;
+	}
+	
+	/*Восьмой блок*/
+	
+	
+	.eight_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	margin-top: 1%;
+	}
+	
+	.text_for_progres_bar_severn{
+	color: white;
+	width: 100%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 5%;
+	font-size: 10vw;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 160%;
+	}
+	
+	
+	.progres_bar_seven{
+	width: 90%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+
+	border-width: 2px;
+	margin: 0 auto;
+	margin-top: 3%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	border-width: 1px;
+	line-height: 450%;
+	}
+	
+	.sto_sabov{
+	position: relative;
+	border-color: black;
+	color: white;
+	border-width: 2px;
+	left: 12%;
+	font-size: 10vw;
+	font-family: 'Caveat', cursive;
+	}
+	
+	.text_for__eight_block{
+	width: 100%;
+	height: auto;
+
+	border-color: white;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 3%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 200%;
+	}
+	
+	.button_eight_block{
+	width: 90%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 4%;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 11vw;
+	transition-duration: 400ms;
+	}
+	
+	.eight_block_image_bottom{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin: 0 auto;
+	margin-top: 2%;
+	box-sizing: border-box;
+	}
+	
+	.nine_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin-top: 1%;
+	padding: 1%;
+	display: flex;
+	overflow: hidden;
+	box-sizing: border-box;
+	}	
+	
+	.nine_block_two{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	padding: 1%;
+	display: flex;
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+	
+	.bogatoe_voobrazetia{
+	width: 90%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: red;
+	box-sizing: border-box;
+	border-width: 2px;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 5vw;
+	text-align: center;
+	}
+	
+	.text_by_Dmitriy{
+	border-color: white;
+	width: 50%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 4vw;
+	font-family: 'Amatic SC', cursive;
+	}
+	
+	/*Десятий последний блок для указания авторства*/
+	 
+	.ten_block{
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	background-color: black;
+	margin-top: 1%;
+	padding: 1%;
+	box-sizing: border-box;
+	}	 
+	
+	.top_text_for_tenblock_glav{
+	width: 90%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 0.1vh;
+	color: red;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	margin: 0 auto;
+	}
+	.block_ten_in_block{
+	width: 100%;
+	height: auto;
+	display: block;
+	}
+	
+	.img_for_text_for_ten_blockk{
+	width: 70%;
+	height: auto;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: red;
+	border-width: 0.1vw;
+	border-left-width: 0.3vw;
+	border-top-left-radius: 12vw;
+	margin-top: 1%;
+	transition-duration: 500ms;
+	margin: 0 auto;
+	}
+	
+	.center_text_for_tenblock{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	margin-left: 0;
+	margin-top: 2%;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 8vw;
+	box-sizing: border-box;
+	padding-top: 4vw;
+	}
+	
+	.my_vk{
+	color: red;
+	font-size: 10.4vw;
+	}
+	
+	.right_text_for_tenblock{
+	width: 90%;
+	height: auto;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: red;
+	margin-top: 2%;
+	color: red;
+	font-family: 'Amatic SC', cursive;
+	font-size: 10vw;
+	text-align: center;
+	line-height: 12vw;
+	box-sizing: border-box;
+	padding-top: 3vw;
+	border-width: 0.1vw;
+	border-right-width: 0.3vw;
+	}
+	
+	.cpec_dlya{
+	font-size: 10vw;
+	}
+	
+	.dlya_channel{
+	font-size: 10vw;
+	color: white;
+	}
+	
+}
+@media screen and (min-width:376px) and (max-width: 414px){
+	.glav_header{
+	width: 98%;
+	height: auto;
+	background-color:black;
+	margin-top: 1%;
+	border-radius: 8px;
+	display: block;
+	align-items: center;
+	perspective: 1000px;
+	overflow: hidden;
+}
+	.icon_for_youtube_channel{
+	/*width: 14%;*/
+	width: 100%;
+	height: auto;
+	/*background-image: url(image/image_1.png);
+	background-size: cover;
+	background-position: center;*/
+	border-color: rgb(255,255,255,0.8);
+	border-width: 2px;
+	margin-left: 4%;
+
+
+}
+	.opisanie_site{
+	width: 90%;
+	height: auto;
+	background-color: transparent;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 2px;
+	text-align: center;
+	transition-duration: 500ms;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 7vw;
+	overflow: hidden;
+	line-height: 120%;
+	box-sizing: border-box;
+	
+	
+
+	
+}
+	.link_channel{
+	width: 94%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	margin-top: 5%;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 7vw;
+	line-height: 240%;
+	overflow: hidden;
+	transition-duration: 350ms;
+	transition-property: transform box-shadow color;
+	transition-timing-function: ease-out;
+	box-shadow: 0px 0px 100px 4px white;
+	}
+	.link_for_vk{
+	width: 96%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: black;
+	border-radius: 30px;
+	text-align: center;
+	background-color: #525aa5;
+	color: black;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 7vw;
+	line-height: 240%;
+	overflow: hidden;
+	transition-duration: 350ms;
+	box-shadow: 0px 0px 100px 15px #525aa5;
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	}
+	
+	.galv_img_header{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	}
+	 /*Второй блок после хедера*/
+	.block_img_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	display: block;
+	perspective: 1000px;
+	overflow: hidden;
+	}	
+	
+	.img_you_are_empty{
+	width: 260px;
+	height: 320px;
+	border-color: white;
+	/*background-image: url(image/small_image_2.png);
+	background-size: 270px;
+	background-repeat: no-repeat;
+	position:relative;*/
+	perspective: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	}  
+	
+	.text_for_you_are_empty{
+	position: absolute;
+	width: 59%;
+	height: 130px;
+	border-color: white;
+	top: 1px;
+	left: 35%;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 300%;
+	transform: rotateY(28deg) rotateX(10deg);
+	line-height: 120%;
+	}
+	
+	.block__for_neon{
+	margin-top: 1%;
+	width: 100%;
+	height: auto;
+	border-color: white;
+	/*transform: rotate(3deg) rotateX(13deg) rotateY(-10deg);*/
+	transform: none;
+	}
+	
+	.text_for_static{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #ef0001;
+	margin-top: 2%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	}
+	
+	.block_progres_bar{
+	border-color: white;
+	width: 97%;
+	height: auto;
+	overflow: hidden;
+	}
+	
+	.text_progres{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: left;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.progres_bar{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	.progres_bar1{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	.progres_bar2{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	
+	.progres_bar3{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	
+	.text_for_progresbar{
+	float: right;
+	width: 27%;
+	height: 37px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	padding-top: 2%;
+	}
+	
+	.text_progres1{
+	width: 60%;
+	height: 38px;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.text_for_progresbar1{
+	float: right;
+	width: 27%;
+	height: 37px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	padding-top: 2%;
+	}
+	
+	.text_progres2{
+	width: 60%;
+	height: 38px;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: left;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.text_for_progresbar2{
+	float: right;
+	width: 27%;
+	height: 50px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-right: 10%;
+	box-sizing: border-box;
+	}
+	
+	.text_progres3{
+	width: 60%;
+	height: 38px;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: left;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.text_for_progresbar3{
+	float: right;
+	width: 27%;
+	height: 37px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	padding-top: 2%;
+	}
+	
+	
+	.progres_bar4{
+	width:100%;
+	height: auto;
+
+	border-width: 2px;
+	border-color: white;
+	border-radius: 20px;
+	margin-top: 2%;
+	position: relative;
+	z-index: 2;
+	right: 20%;
+	}
+	
+	.animation_bar{
+	display: none;
+	}
+	
+	.img_in_imgae_tree{
+	width: 60%;
+	height: auto;
+	
+	}
+	
+	
+	
+	/*Третий блок если по счету*/
+	
+	.block_video{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	display: block;
+	flex-wrap: wrap;
+	overflow: hidden;
+	perspective: 1000px;
+	border-radius: 8px;
+	}  
+	
+	.block_left_for_video{
+	width: 97%;
+	height: 200px;
+	border-color:white;
+	}
+	
+	.video{
+	/*transform: rotateX(20deg) rotate(-8deg);*/
+	transform: none;
+	border-color:red;
+	border-style: solid;
+	border-top-color: black;
+	border-left-color: black;
+	border-radius: 10px;
+	border-width: 4px;
+	box-shadow: 5px 5px 40px red;
+	width: 96%;
+	}
+	
+	.iframe{
+	width: 100%;
+	height: 143px;
+	}
+	
+	
+	.block_right_for_image{
+	width: 270px;
+	height: auto;
+	border-color:  white;
+	background-image: url(image/small_image_4.png);
+	background-position: center;
+	margin: 0 auto;
+	/*transform: rotateY(-5deg);*/
+	transform: none;
+	}
+	
+	.empty_test{
+	max-width: 100%;
+	margin-top: 20%;
+	}
+	
+	.block_for_text_history{
+	margin-top: 1%;
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding: 5px;
+	perspective: 1000px;
+	overflow: hidden;
+	}	
+	
+	.left_block_image{
+	width: 100%;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+	}	   
+	
+	.right_block_text{
+	float: right;
+	border-color: white;
+	width: 100%;
+	height: auto;
+	transform: rotateY(-20deg);
+	transform: none;
+	margin-top: 3%;
+	}
+	
+	.avtorskie_istorii{
+	color:red;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 40px;
+	border-style: solid;
+	line-height: 40px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 4s0px;
+	box-shadow: 5px 5px 100px 5px red;
+	}
+	
+	.crayze_history{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border-color: red;
+	margin-top: 10%;
+	}
+	
+	.crrayze_history_one{
+	width: 100%;
+	border-style: solid;
+	border-color: blue;
+	box-sizing:border-box;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	line-height: 40px;
+	transition-duration: 300ms;
+	transition-timing-function: easy-out;
+	margin: 0 auto;
+	margin-top: 3%;
+	}
+	
+	/*Блок с четвертим блоков в боди*/
+	.block_for_in_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	overflow: hidden;
+	perspective: 1000px;
+	border-radius: 8px;
+	}	
+	
+	.left_block_for_text_for{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	transform: rotateY(14deg);
+	transform: none;
+	margin-top: 1%;
+	}	
+	
+	.right_block_for_text_for{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: right;
+	
+	}
+	
+	.text_for_sponsor_button{
+	border-color: white;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 10vw;
+	}	 
+	
+	.red_color_for_spinsor{
+	color:red;
+	font-size: 12vw;
+	animation-name: sponsor;
+	animation-duration: 7s;
+	animation-fill-mode: forward;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	}
+	
+	.button_for_spinsor{
+	width: 80%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 10vw;
+	line-height: 120%;
+	transition-duration: 500ms;
+	}
+	
+	.image_anubis{
+	width: 100%;
+	height: auto;
+	}
+	
+	.five_block_for_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	border-radius: 8px;
+	overflow: hidden;
+	box-sizing: border-box;
+	perspective: 1000px;
+	padding-bottom: 8%;
+	}	   
+	
+	.block_left_for_five_body{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	transform: rotateY(20deg);
+	
+	}
+	
+	.block_right_for_five_body{
+	margin-top: 10%;
+	width: 100%;
+	height: auto;
+	float: right;
+	border-color: white;
+	box-sizing: border-box;
+	perspective: 1000px;
+	transform: rotateX(20deg);
+	}
+	
+	.text_for_five_block_right{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 7vw;
+	line-height: 170%;
+	}
+	
+	.button_for_sotrudnechestvo{
+	width: 50%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 170%;
+	font-size: 9vw;
+	margin: 0 auto;
+	transition-duration: 500ms;
+	}
+	
+	.six_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	border-radius: 8px;
+	}			
+	
+	.six_top_block_img{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 1%;
+	}
+	
+	.image_8_for_six_block{
+	width: 100%;
+	height: auto;
+	}
+	
+	.text_six_block_img_group{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vw;
+	word-spacing: 15px;
+	}
+	
+	
+	
+	.button_for_group_vk{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 2%;
+	display: block;
+	justify-content: center;
+	perspective: 1000px;
+	}
+	
+	.button_for_group{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color: red;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px red;
+	box-sizing: border-box;
+	}
+	
+	.button_vasi_history{
+	width: 90%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	margin: 0 auto;
+	margin-top: 4%;
+	transform: scale(1.1);
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 10px white;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+	
+	.button_for_video_vk{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color: red;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px red;
+	margin-top: 4%;
+	box-sizing: border-box;
+	}
+	
+	/*Седьмой блок*/
+	.seven_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 7px;
+	margin-top: 1%;
+	padding: 1%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-sizing:border-box;
+	perspective: 1000px;
+	}	
+
+	.seven_pob_block{
+	width: 100%;
+	display: block;
+	perspective: 1000px;
+	}
+	
+	.seven_block_for_img_one{
+	width: 90%;
+	height: auto;
+	transform: rotateY(30deg) translateZ(-110px);
+	transform: none;
+	color: red;
+	border-bottom-style: solid;
+	border-color: red;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	margin: 0 auto;
+	}
+	
+	.seven_block_for_img_two{
+	width: 90%;
+	height: auto;
+	transform: rotateY(20deg);
+	transform: none;
+	border-bottom-style: solid;
+	border-color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	color: white;
+	margin: 0 auto;
+	margin-top: 5%;
+	}
+	
+	.seven_block_for_img_three{
+	width: 90%;
+	height: auto;
+	transform: rotateY(15deg) translateZ(110px);
+	transform: none;
+	border-bottom-style: solid;
+	border-color: redseven_block;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	color: red;
+	margin: 0 auto;
+	margin-top: 5%;
+	}
+	/*Восьмой блок*/
+	
+	
+	.eight_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	margin-top: 1%;
+	}
+	
+	.text_for_progres_bar_severn{
+	color: white;
+	width: 100%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 5%;
+	font-size: 10vw;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 160%;
+	}
+	
+	
+	.progres_bar_seven{
+	width: 90%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+
+	border-width: 2px;
+	margin: 0 auto;
+	margin-top: 3%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	border-width: 1px;
+	line-height: 450%;
+	}
+	
+	.sto_sabov{
+	position: relative;
+	border-color: black;
+	color: white;
+	border-width: 2px;
+	left: 12%;
+	font-size: 10vw;
+	font-family: 'Caveat', cursive;
+	}
+	
+	.text_for__eight_block{
+	width: 100%;
+	height: auto;
+
+	border-color: white;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 3%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 200%;
+	}
+	
+	.button_eight_block{
+	width: 90%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 4%;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 11vw;
+	transition-duration: 400ms;
+	}
+	
+	.eight_block_image_bottom{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin: 0 auto;
+	margin-top: 2%;
+	box-sizing: border-box;
+	}
+	
+	.nine_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin-top: 1%;
+	padding: 1%;
+	display: none;
+	overflow: hidden;
+	box-sizing: border-box;
+	}	
+	
+	.nine_block_two{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	padding: 1%;
+	display: flex;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-radius: 7px;
+	}
+	
+	.bogatoe_voobrazetia{
+	width: 60%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: red;
+	box-sizing: border-box;
+	border-width: 2px;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	text-align: center;
+	}
+	
+	.text_by_Dmitriy{
+	border-color: white;
+	width: 50%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 6vw;
+	font-family: 'Amatic SC', cursive;
+	}
+	
+	
+	/*Десятий последний блок для указания авторства*/
+	 
+	.ten_block{
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	background-color: black;
+	margin-top: 1%;
+	padding: 1%;
+	box-sizing: border-box;
+	}	 
+	
+	.top_text_for_tenblock_glav{
+	width: 90%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 0.1vh;
+	color: red;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	margin: 0 auto;
+	}
+	.block_ten_in_block{
+	width: 100%;
+	height: auto;
+	display: block;
+	}
+	
+	.img_for_text_for_ten_blockk{
+	width: 70%;
+	height: auto;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: red;
+	border-width: 0.1vw;
+	border-left-width: 0.3vw;
+	border-top-left-radius: 12vw;
+	margin-top: 1%;
+	transition-duration: 500ms;
+	margin: 0 auto;
+	}
+	
+	.center_text_for_tenblock{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	margin-left: 0;
+	margin-top: 2%;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 8vw;
+	box-sizing: border-box;
+	padding-top: 4vw;
+	}
+	
+	.my_vk{
+	color: red;
+	font-size: 10.4vw;
+	}
+	
+	.right_text_for_tenblock{
+	width: 90%;
+	height: auto;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: red;
+	margin-top: 2%;
+	color: red;
+	font-family: 'Amatic SC', cursive;
+	font-size: 10vw;
+	text-align: center;
+	line-height: 12vw;
+	box-sizing: border-box;
+	padding-top: 3vw;
+	border-width: 0.1vw;
+	border-right-width: 0.3vw;
+	}
+	
+	.cpec_dlya{
+	font-size: 10vw;
+	}
+	
+	.dlya_channel{
+	font-size: 10vw;
+	color: white;
+	}
+	
+}
+@media screen and (max-width: 375px){
+	.glav_header{
+	width: 98%;
+	height: auto;
+	background-color:black;
+	margin-top: 1%;
+	border-radius: 8px;
+	display: block;
+	align-items: center;
+	perspective: 1000px;
+	overflow: hidden;
+}
+	.icon_for_youtube_channel{
+	/*width: 14%;*/
+	width: 100%;
+	height: auto;
+	/*background-image: url(image/image_1.png);
+	background-size: cover;
+	background-position: center;*/
+	border-color: rgb(255,255,255,0.8);
+	border-width: 2px;
+	margin-left: 4%;
+
+
+}
+	.opisanie_site{
+	width: 90%;
+	height: auto;
+	background-color: transparent;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 2px;
+	text-align: center;
+	transition-duration: 500ms;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 7vw;
+	overflow: hidden;
+	line-height: 120%;
+	box-sizing: border-box;
+	
+	
+
+	
+}
+	.link_channel{
+	width: 94%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	margin-top: 5%;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 7vw;
+	line-height: 240%;
+	overflow: hidden;
+	transition-duration: 350ms;
+	transition-property: transform box-shadow color;
+	transition-timing-function: ease-out;
+	box-shadow: 0px 0px 100px 4px white;
+	}
+	.link_for_vk{
+	width: 96%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: black;
+	border-radius: 30px;
+	text-align: center;
+	background-color: #525aa5;
+	color: black;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 7vw;
+	line-height: 240%;
+	overflow: hidden;
+	transition-duration: 350ms;
+	box-shadow: 0px 0px 100px 15px #525aa5;
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	}
+	
+	.galv_img_header{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	}
+
+	 
+	 /*Второй блок после хедера*/
+	.block_img_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	display: block;
+	perspective: 1000px;
+	overflow: hidden;
+	}	
+	
+	.img_you_are_empty{
+	width: 260px;
+	height: 320px;
+	border-color: white;
+	/*background-image: url(image/small_image_2.png);
+	background-size: 270px;
+	background-repeat: no-repeat;
+	position:relative;*/
+	perspective: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	}  
+	
+	.text_for_you_are_empty{
+	position: absolute;
+	width: 59%;
+	height: 130px;
+	border-color: white;
+	top: 1px;
+	left: 35%;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 300%;
+	transform: rotateY(28deg) rotateX(10deg);
+	line-height: 120%;
+	}
+	
+	.block__for_neon{
+	margin-top: 1%;
+	width: 100%;
+	height: auto;
+	border-color: white;
+	/*transform: rotate(3deg) rotateX(13deg) rotateY(-10deg);*/
+	transform: none;
+	}
+	
+	.text_for_static{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #ef0001;
+	margin-top: 2%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	}
+	
+	.block_progres_bar{
+	border-color: white;
+	width: 97%;
+	height: auto;
+	overflow: hidden;
+	}
+	
+	.text_progres{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: left;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.progres_bar{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	.progres_bar1{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	.progres_bar2{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	
+	.progres_bar3{
+	width:90%;
+	height: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	z-index: 2;
+	box-shadow: 0px 0px 15px 0px white;
+	}
+	
+	.text_for_progresbar{
+	float: right;
+	width: 27%;
+	height: 37px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	padding-top: 2%;
+	}
+	
+	.text_progres1{
+	width: 60%;
+	height: 38px;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.text_for_progresbar1{
+	float: right;
+	width: 27%;
+	height: 37px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	padding-top: 2%;
+	}
+	
+	.text_progres2{
+	width: 60%;
+	height: 38px;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: left;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.text_for_progresbar2{
+	float: right;
+	width: 27%;
+	height: 50px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-right: 10%;
+	box-sizing: border-box;
+	}
+	
+	.text_progres3{
+	width: 60%;
+	height: 38px;
+	position: absolute;
+	z-index: 2;
+	border-color: white;
+	text-align: left;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	line-height: 40px;
+	border-style: solid;
+	display: none;
+	}
+	
+	.text_for_progresbar3{
+	float: right;
+	width: 27%;
+	height: 37px;
+	border-color: #ef0001;
+	border-bottom-style: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	padding-top: 2%;
+	}
+	
+	
+	.progres_bar4{
+	width:100%;
+	height: auto;
+
+	border-width: 2px;
+	border-color: white;
+	border-radius: 20px;
+	margin-top: 2%;
+	position: relative;
+	z-index: 2;
+	right: 20%;
+	}
+	
+	.animation_bar{
+	display: none;
+	}
+	
+	.img_in_imgae_tree{
+	width: 60%;
+	height: auto;
+	
+	}
+	
+	
+	
+	
+	/*Третий блок если по счету*/
+	
+	.block_video{
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	display: block;
+	flex-wrap: wrap;
+	overflow: hidden;
+	perspective: 1000px;
+	border-radius: 8px;
+	}  
+	
+	.block_left_for_video{
+	width: 97%;
+	height: 200px;
+	border-color:white;
+	}
+	
+	.video{
+	/*transform: rotateX(20deg) rotate(-8deg);*/
+	transform: none;
+	border-color:red;
+	border-style: solid;
+	border-top-color: black;
+	border-left-color: black;
+	border-radius: 10px;
+	border-width: 4px;
+	box-shadow: 5px 5px 40px red;
+	width: 96%;
+	}
+	
+	.iframe{
+	width: 100%;
+	height: 143px;
+	}
+	
+	
+	.block_right_for_image{
+	width: 270px;
+	height: 169px;
+	border-color:  white;
+	background-image: url(image/small_image_4.png);
+	background-position: center;
+	margin: 0 auto;
+	/*transform: rotateY(-5deg);*/
+	transform: none;
+	}
+	.empty_test{
+	max-width: 100%;
+	margin-top: 20%;
+	}
+	
+	.block_for_text_history{
+	margin-top: 1%;
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding: 5px;
+	perspective: 1000px;
+	overflow: hidden;
+	}	
+	
+	.left_block_image{
+	width: 100%;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+	}	   
+	
+	.right_block_text{
+	float: right;
+	border-color: white;
+	width: 100%;
+	height: auto;
+	transform: rotateY(-20deg);
+	transform: none;
+	margin-top: 3%;
+	}
+	
+	.avtorskie_istorii{
+	color:red;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 40px;
+	border-style: solid;
+	line-height: 40px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 4s0px;
+	box-shadow: 5px 5px 100px 5px red;
+	}
+	
+	.crayze_history{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border-color: red;
+	margin-top: 10%;
+	}
+	
+	.crrayze_history_one{
+	width: 100%;
+	border-style: solid;
+	border-color: blue;
+	box-sizing:border-box;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	line-height: 40px;
+	transition-duration: 300ms;
+	transition-timing-function: easy-out;
+	margin: 0 auto;
+	margin-top: 3%;
+	}
+	
+	
+	/*Блок с четвертим блоков в боди*/
+	.block_for_in_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	overflow: hidden;
+	perspective: 1000px;
+	border-radius: 8px;
+	}	
+	
+	.left_block_for_text_for{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: left;
+	transform: rotateY(14deg);
+	transform: none;
+	margin-top: 1%;
+	}	
+	
+	.right_block_for_text_for{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	float: right;
+	
+	}
+	
+	.text_for_sponsor_button{
+	border-color: white;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 10vw;
+	}	 
+	
+	.red_color_for_spinsor{
+	color:red;
+	font-size: 12vw;
+	animation-name: sponsor;
+	animation-duration: 7s;
+	animation-fill-mode: forward;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	}
+	
+	.button_for_spinsor{
+	width: 80%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 10vw;
+	line-height: 120%;
+	transition-duration: 500ms;
+	}
+	
+	.image_anubis{
+	width: 100%;
+	height: auto;
+	}
+	
+	.five_block_for_body{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	border-radius: 8px;
+	overflow: hidden;
+	box-sizing: border-box;
+	perspective: 1000px;
+	padding-bottom: 8%;
+	}	   
+	
+	.block_left_for_five_body{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	transform: rotateY(20deg);
+	
+	}
+	
+	.block_right_for_five_body{
+	margin-top: 10%;
+	width: 100%;
+	height: auto;
+	float: right;
+	border-color: white;
+	box-sizing: border-box;
+	perspective: 1000px;
+	transform: rotateX(20deg);
+	}
+	
+	.text_for_five_block_right{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 7vw;
+	line-height: 170%;
+	}
+	
+	.button_for_sotrudnechestvo{
+	width: 50%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 170%;
+	font-size: 9vw;
+	margin: 0 auto;
+	transition-duration: 500ms;
+	}
+	
+	.six_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin-top: 1%;
+	border-radius: 8px;
+	}			
+	
+	.six_top_block_img{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 1%;
+	}
+	
+	.image_8_for_six_block{
+	width: 100%;
+	height: auto;
+	}
+	
+	.text_six_block_img_group{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vw;
+	word-spacing: 15px;
+	}
+	
+	
+	
+	.button_for_group_vk{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin-top: 2%;
+	display: block;
+	justify-content: center;
+	perspective: 1000px;
+	}
+	
+	.button_for_group{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color: red;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px red;
+	box-sizing: border-box;
+	}
+	
+	.button_vasi_history{
+	width: 90%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	margin: 0 auto;
+	margin-top: 4%;
+	transform: scale(1.1);
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 10px white;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+	
+	.button_for_video_vk{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color: red;
+	border-radius: 15px;
+	border-width: 2px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 300%;
+	font-weight:bold;
+	transition-duration: 300ms;
+	box-shadow: 0px 0px 100px 2px red;
+	margin-top: 4%;
+	box-sizing: border-box;
+	}
+	
+	/*Седьмой блок*/
+	.seven_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 7px;
+	margin-top: 1%;
+	padding: 1%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-sizing:border-box;
+	perspective: 1000px;
+	}	
+
+	.seven_pob_block{
+	width: 100%;
+	display: block;
+	perspective: 1000px;
+	}
+	
+	.seven_block_for_img_one{
+	width: 90%;
+	height: auto;
+	transform: rotateY(30deg) translateZ(-110px);
+	transform: none;
+	color: red;
+	border-bottom-style: solid;
+	border-color: red;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	margin: 0 auto;
+	}
+	
+	.seven_block_for_img_two{
+	width: 90%;
+	height: auto;
+	transform: rotateY(20deg);
+	transform: none;
+	border-bottom-style: solid;
+	border-color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	color: white;
+	margin: 0 auto;
+	margin-top: 5%;
+	}
+	
+	.seven_block_for_img_three{
+	width: 90%;
+	height: auto;
+	transform: rotateY(15deg) translateZ(110px);
+	transform: none;
+	border-bottom-style: solid;
+	border-color: redseven_block;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13vw;
+	color: red;
+	margin: 0 auto;
+	margin-top: 5%;
+	}
+	
+	
+	/*Восьмой блок*/
+	
+	
+	.eight_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-radius: 8px;
+	margin-top: 1%;
+	}
+	
+	.text_for_progres_bar_severn{
+	color: white;
+	width: 100%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 5%;
+	font-size: 10vw;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	line-height: 160%;
+	}
+	
+	
+	.progres_bar_seven{
+	width: 90%;
+	height: auto;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: red;
+
+	border-width: 2px;
+	margin: 0 auto;
+	margin-top: 3%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	border-width: 1px;
+	line-height: 450%;
+	}
+	
+	.sto_sabov{
+	position: relative;
+	border-color: black;
+	color: white;
+	border-width: 2px;
+	left: 12%;
+	font-size: 10vw;
+	font-family: 'Caveat', cursive;
+	}
+	
+	.text_for__eight_block{
+	width: 100%;
+	height: auto;
+
+	border-color: white;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 3%;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 200%;
+	}
+	
+	.button_eight_block{
+	width: 90%;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 4%;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 11vw;
+	transition-duration: 400ms;
+	}
+	
+	.eight_block_image_bottom{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	margin: 0 auto;
+	margin-top: 2%;
+	box-sizing: border-box;
+	}
+	
+	/*Девятий блок*/
+	.nine_block{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin-top: 1%;
+	padding: 1%;
+	display: none;
+	overflow: hidden;
+	box-sizing: border-box;
+	}	
+	
+	.nine_block_two{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	padding: 1%;
+	display: flex;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-radius: 7px;
+	}
+	
+	.bogatoe_voobrazetia{
+	width: 60%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: red;
+	box-sizing: border-box;
+	border-width: 2px;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	text-align: center;
+	}
+	
+	.text_by_Dmitriy{
+	border-color: white;
+	width: 50%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 6vw;
+	font-family: 'Amatic SC', cursive;
+	}
+	
+	/*Десятий последний блок для указания авторства*/
+	 
+	.ten_block{
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	background-color: black;
+	margin-top: 1%;
+	padding: 1%;
+	box-sizing: border-box;
+	}	 
+	
+	.top_text_for_tenblock_glav{
+	width: 90%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 0.1vh;
+	color: red;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 8vw;
+	margin: 0 auto;
+	}
+	.block_ten_in_block{
+	width: 100%;
+	height: auto;
+	display: block;
+	}
+	
+	.img_for_text_for_ten_blockk{
+	width: 70%;
+	height: auto;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: red;
+	border-width: 0.1vw;
+	border-left-width: 0.3vw;
+	border-top-left-radius: 12vw;
+	margin-top: 1%;
+	transition-duration: 500ms;
+	margin: 0 auto;
+	}
+	
+	.center_text_for_tenblock{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	margin-left: 0;
+	margin-top: 2%;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 8vw;
+	box-sizing: border-box;
+	padding-top: 4vw;
+	}
+	
+	.my_vk{
+	color: red;
+	font-size: 10.4vw;
+	}
+	
+	.right_text_for_tenblock{
+	width: 90%;
+	height: auto;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: red;
+	margin-top: 2%;
+	color: red;
+	font-family: 'Amatic SC', cursive;
+	font-size: 10vw;
+	text-align: center;
+	line-height: 12vw;
+	box-sizing: border-box;
+	padding-top: 3vw;
+	border-width: 0.1vw;
+	border-right-width: 0.3vw;
+	}
+	
+	.cpec_dlya{
+	font-size: 10vw;
+	}
+	
+	.dlya_channel{
+	font-size: 10vw;
+	color: white;
+	}
+}
+@keyframes blood{
+	0%{
+		
+	}
+	10%{
+		
+	}
+	50%{
+
+	}
+	75%{
+		
+	}
+	100%{
+		box-shadow: 0px 0px 120px 70px red;
+	}
+}
+
+
+@keyframes history{
+	0%{
+		
+	}
+	50%{
+		
+	}
+	100%{
+		transform: scale(0.9);
+	}
+}
+
+@keyframes sponsor{
+	0%{
+		
+	}
+	50%{
+		
+	}
+	100%{
+		color: black;
+	}
+}
