@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>Страшные истории от Дмитрий Ray</title>
+		<title>Повторения html и css</title>
 		<meta charset="utf-8">
-		<meta name="author" content="Nonamechik">
-		<meta name="description" content="Страшные истории наночь от Дмитрий Ray Horror">
-		<meta name="keywrods" content="страшные истории">
+		<meta name="author" content="Anteyku">
+		<meta name="description" content="Страшные истории наночь - Дмитрий Ray">
+		<meta name="keywrods" content="html ,css, обучения">
 		<link rel="stylesheet" type="text/css" href="style_1.css">
 		<link rel="shortcut icon" type="images/png" href="adap.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,7 @@
 			<div class="flex_center">
 				<div class="glav_header">
 					<div class="galv_img_header">
-						<img class="icon_for_youtube_channel" src="image/image_1.png">
+						<img class="icon_for_youtube_channel lazyload" data-src="image/image_1.webp">
 					</div>
 					<div class="opisanie_site">
 					Привет, ты попал на АВТОРА канал
@@ -39,17 +39,64 @@
 		</header>
 			
 		<main>
-		<div class="flex_body">
-		
-		
-				<!-- Блок навигации -->
-				
-				<div class="block_for_navigation">
-					<div class="navigation_border">
-						<div class="navigation"><a href="#avtorskie">Авторские истории</div></a>
-						<div class="navigation"><a href="#sponsor">Спонсорство</div></a>
-						<div class="navigation"><a href="#sotrudnichestvo">Сотрудничество</div></a>
-						<div class="navigation"><a href="#vasihistory">Ваши истории</div></a>
+		<!-- Блок после хедера -->
+			<div class="flex_body">
+				<div class="block_img_body">
+					<!--<div class="img_you_are_empty">
+						<div class="text_for_you_are_empty">
+						ОН ВАМ НЕ<br/> <span class="peaple">ЧЕЛОВЕК</span>
+						</div>
+					</div>-->
+					
+
+					<div class="img_you_are_empty">
+						<img class="empty_test lazyload" data-src="image/image_2.webp">
+						<div class="text_for_you_are_empty">
+						ОН ВАМ НЕ<br/> <span class="peaple">ЧЕЛОВЕК</span>
+						</div>
+					</div>
+					
+					
+					<div class="block__for_neon">
+						<div class="text_for_static">СТАТИСТИКА <span class="channel">КАНАЛА</span></div>
+						<div class="block_progres_bar">
+								<div class="progres_bar">
+									<span class="text_progres">
+										66.300 / 100.000
+									</span>
+								</div>
+								
+								<div class="text_for_progresbar">ПОСЛЕДОВАТЕЛЕЙ</div>
+								
+								<div class="progres_bar1">
+									<span class="text_progres1">
+										13.600.000 / 14.000.000 
+									</span>
+								</div>
+								
+								<div class="text_for_progresbar1">ПРОСМОТРОВ</div>
+								
+								<div class="progres_bar2">
+									<span class="text_progres2">
+										207 
+									</span>
+								</div>
+								
+								<div class="text_for_progresbar2">РАССКАЗАННЫХ ИСТОРИЙ</div>
+								
+								<div class="progres_bar3">
+									<span class="text_progres3">
+										18 / 143
+									</span>
+								</div>
+								
+								<div class="text_for_progresbar3">СПОНСОРОВ</div>
+								
+								<div class="progres_bar4">
+									<img class="img_in_imgae_tree lazyload" data-src="image/image_3.webp" >
+								</div>
+								
+						</div>
 					</div>
 				</div>
 				
@@ -62,19 +109,19 @@
 					</div>
 					
 					<div class="block_right_for_image">
-						<img class="img_ruk" src="image/image_4.png">
+						<img class="img_ruk lazyload" data-src="image/image_4.webp" >
 					</div>
 					<div class="text_tishe_on_vas_uslishet"><span class="tishe">ТИШЕ!</span> ОН МОЖЕТ УСЛЫШАТЬ..</div>
 				</div>
 				
 				<!-- История в текстовой формате -->
-				
-				<div id="avtorskie" class="block_for_text_history">
+				<div class="block_for_text_history">
 					<div class="left_block_image">
-						<img src="image/image_5.png" class="img_left_block_img">
+						<img class="lazyload" data-src="image/image_5.webp" >
 					</div>
 					
 					<div class="right_block_text">
+						
 							<div class="avtorskie_istorii">АВТОРСКИЕ ИСТОРИИ</div>
 								<div class="crayze_history">
 									<a href="https://www.youtube.com/watch?v=Nu0O5m5Vo78" target="_new"><div class="crrayze_history_one">Дед Игнат</div></a>
@@ -89,8 +136,7 @@
 					</div>
 				</div>
 			<!-- Четвертый блок в бади -->
-			
-				<div id="sponsor" class="block_for_in_body">
+				<div class="block_for_in_body">
 					<div class="left_block_for_text_for">
 						<div class="text_for_sponsor_button">
 						ИСТОРИИ МОИ СМОТРИШЬ ?<br/>
@@ -107,14 +153,13 @@
 					</div>
 					
 					<div class="right_block_for_text_for">
-						<img class="image_anubis" src="image/image_6.png">
+						<img class="image_anubis lazyload" data-src="image/image_6.webp" >
 					</div>
 				</div>
 			<!-- ПЯТЫЙ БЛОК В БОДИ -->
-			
-				<div id="sotrudnichestvo" class="five_block_for_body">
+				<div class="five_block_for_body">
 					<div class="block_left_for_five_body">
-						<img class="block_for_left_image_five" src="image/image_7.png">
+						<img class="block_for_left_image_five lazyload" data-src="image/image_7.webp">
 					</div>
 					
 					<div class="block_right_for_five_body">
@@ -131,9 +176,9 @@
 					</div>
 				</div>
 			<!-- ШЕСТОЙ БЛОК НА САЙТЕ -->	
-				<div id="vasihistory" class="six_block">
+				<div class="six_block">
 					<div class="six_top_block_img">
-						<img class="image_8_for_six_block" src="image/image_8.png">
+						<img class="image_8_for_six_block lazyload"  data-src="image/image_8.webp" >
 						<div class="text_six_block_img_group">
 						Друзья не забывайте писать комментарии (даже если они негативные).<br/>
 						Эти действия очень сильно помогают каналу
@@ -150,21 +195,27 @@
 				<div class="seven_block">
 				  <div class="seven_pob_block">
 					<div class="seven_block_for_img_one">
-						<img class="image_9_one" src="image/image_9.jpg">
+						<img class="image_9_one lazyload" data-src="image/image_9.jpg" >
 						ЛУЧШИЕ
 					</div>
 					<div class="seven_block_for_img_two">
-						<img class="image_9_two" src="image/image_10.jpg">
+						<img class="image_9_two lazyload" data-src="image/image_10.jpg">
 						АВТОРСКИЕ
 					</div>
 					<div class="seven_block_for_img_three">
-						<img class="image_9_three" src="image/image_11.jpg">
+						<img class="image_9_three lazyload" data-src="image/image_11.jpg" >
 						ИСТОРИИ
 					</div>
 				  </div>	
 				</div>
 			<!-- Восьмой блок -->	
 				<div class="eight_block">
+					<div class="text_for_progres_bar_severn">
+					ЦЕЛЬ АВТОРА ИСТОРИЙ <span class="theart">200.000</span> ПОДПИСЧИКОВ
+					</div>
+					<div class="progres_bar_seven">
+						<span class="sto_sabov">63.000 <span class="splesh">/</span> 100.000</span>
+					</div>
 					
 					<div class="text_for__eight_block"> 
 					Я очень стараюсь над своими историями,
@@ -177,29 +228,29 @@
 					</div></a>
 					
 					<div class="eight_block_image_bottom">
-						<img class="eight_image_in_image" src="image/image_12.jpg">
+						<img class="eight_image_in_image lazyload" data-src="image/image_12.jpg" >
 					</div>
 				</div>
 				
 				<!-- Девятий блок -->
 				<div class="nine_block">
 					<div class="border_img_for_one">
-						<img class="image_in_nine_one" src="image/image_13.jpg">
+						<img class="image_in_nine_one lazyload" data-src="image/image_13.jpg"  >
 					</div>
 					<div class="border_img_for_two">
-						<img class="image_in_nine_one" src="image/image_14.jpg">
+						<img class="image_in_nine_one lazyload" data-src="image/image_14.jpg"  >
 					</div>
 					<div class="border_img_for_three">
-						<img class="image_in_nine_one" src="image/image_15.jpg">
+						<img class="image_in_nine_one lazyload" data-src="image/image_15.jpg"  >
 					</div>
 					<div class="border_img_for_for">
-						<img class="image_in_nine_one" src="image/image_16.jpg">
+						<img class="image_in_nine_one lazyload" data-src="image/image_16.jpg"  >
 					</div>
 					<div class="border_img_for_five">
-						<img class="image_in_nine_one" src="image/image_17.jpg">
+						<img class="image_in_nine_one lazyload" data-src="image/image_17.jpg"  >
 					</div>
 					<div class="border_img_for_six">
-						<img class="image_in_nine_one" src="image/image_18.jpg">
+						<img class="image_in_nine_one lazyload" data-src="image/image_18.jpg">
 					</div>
 					
 				</div>
@@ -220,30 +271,12 @@
 		
 		<footer>
 		<!-- Последний блок для указания авторства -->
-			<div class="flex_body">
-				<div class="ten_block">
-					<div class="top_text_for_tenblock_glav">
-						Сайт написан верстальщиком Nonamechik
-					
-					</div>
-				<div class="block_ten_in_block">	
-					<div class="img_for_text_for_ten_blockk">
-						<a href="https://www.youtube.com/channel/UCbzTkmRnLM8XmvfeJ2FTSMA?view_as=subscriber" target="_new"><img class="img_ing_nine_block" src="image/image_19.jpg"></a>
-					</div>
-					
-					<div class="center_text_for_tenblock">
-					<span class="my_vk">В</span>контакте<br/>
-					<a href="https://vk.com/id247699670" target="_new">https://vk.com/id247699670</a><br/>
-					<span class="my_vk">Т</span>елеграм<br/>
-					@nonamechik
-					</div>
-					
-					<div class="right_text_for_tenblock">
-					<span class="cpec_dlya">Сайт написан специально</span><br/><span class="dlya_channel"> для канала</span><br/> Дмитрий Ray
-					</div>
-				</div>	
-				</div>
-			</div>
+			<a href="https://anteyku.com/" class="footer">
+				Created by Anteyku
+			</a>
 		</footer>
 	</body>
 </html>
+
+
+<script src="lazysizes.min.js"></script>

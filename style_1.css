@@ -12,15 +12,14 @@ body{
 	margin: 0;
 }
 
-
-html{
-	scroll-behavior: smooth;
-}
                       /*Главная блок сверху*/
 
 .flex_center{
 	display: flex;
 	justify-content: center;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-top: 10px;
 }
 
 
@@ -28,15 +27,15 @@ html{
 	width: 90%;
 	height: auto;
 	background-color:black;
-	margin-top: 1%;
+	margin-top: 5px; 
 	display: flex;
 	align-items: center;
 	perspective: 1000px;
-	overflow: hidden;
 	border-bottom-style: solid;
 	border-color:#525aa5;
 	box-sizing: border-box;
-	border-width: 0.1vh;
+	padding-bottom: 20px;
+	border-width: 2px;
 }
 
 
@@ -71,13 +70,14 @@ html{
 	text-align: center;
 	color: white;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 2.3vw;
-	line-height: 240%;
+	font-size: 29.44px;
+	line-height: 80px;
 	overflow: hidden;
 	transition-duration: 350ms;
 	transition-property: transform box-shadow color;
 	transition-timing-function: ease-out;
 	box-shadow: 0px 0px 100px 4px white;
+	border-width: 3px;
 }
 .link_channel:hover{
 	transform: scale(0.9);
@@ -100,8 +100,8 @@ html{
 	background-color: #525aa5;
 	color: black;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 2.3vw;
-	line-height: 240%;
+	font-size: 29.44px;
+	line-height: 80px;
 	overflow: hidden;
 	margin-left: 1%;
 	transition-duration: 350ms;
@@ -137,76 +137,14 @@ html{
 	transition-duration: 500ms;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2vw;
+	font-size: 25.6px;
 	overflow: hidden;
-	line-height: 120%;
+	line-height: 35px;
 	box-sizing: border-box;
 	padding-top: 20px;
-	
-	
-
+	padding-bottom: 10px;
 	
 }
-
-
-          /*Навигация сайта*/
-		  
-.block_for_navigation{
-	border-color: white;
-	width: 90%;
-	height: auto;
-	box-sizing: border-box;
-	padding: 1%;
-	margin-bottom: 3%;
-}
-
-.navigation_border{
-	width: 100%;
-	height: auto;
-	border-color: white;
-	box-sizing: border-box;
-	display: flex;
-	justify-content: center;
-	
-}
-
-.navigation{
-	width: 18%;
-	height: auto;
-	border-bottom-style: solid;
-	border-width: 0.1vw;
-	border-color: white;
-	box-sizing: border-box;
-	color: white;
-	font-family: 'Amatic SC', cursive;
-	text-align: center;
-	margin-right: 3%;
-	font-size: 2vw;
-	line-height: 3.9vw;
-	transition-duration: 300ms;
-	transition-property: transform;
-	transition-timing-function: ease-out;
-}
-.navigation:nth-child(4){
-	margin: 0;
-}
-.navigation:nth-child(1){
-	text-shadow: 
-	1px 1px 0px grey,
-	2px 2px 0px grey,
-	3px 3px 0px grey,
-	4px 4px 0px grey,
-	5px 5px 0px grey,
-	6px 6px 0px grey;
-	box-shadow: 0vw 2vw 5.0vw grey;
-}
-
-.navigation:hover{
-	transform: scale(0.9);
-}
-
-
-		  
 
           /*Блок на бади после хедера*/
 		  
@@ -214,18 +152,21 @@ html{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	max-width: 1280px;
+	margin: 0 auto;
 }	
 .block_img_body{
 	width: 90%;
 	height: auto;
 	background-color: black;
-	margin: 1%;
+	margin: 34px;
 	display: flex;
 	perspective: 1000px;
 	overflow: hidden;
 	border-bottom-style: solid;
 	border-color: red;
-	border-width: 0.1vw;
+	border-width: 3px;
+	padding-bottom: 20px;
 }	
 
 .empty_test{
@@ -235,7 +176,7 @@ html{
 }
 
 .img_you_are_empty{
-	margin: 1%;
+	margin: 5px;
 	width: 40%;
 	height: auto;
 	border-color: white;
@@ -248,12 +189,12 @@ html{
 	width: 59%;
 	height: auto;
 	border-color: white;
-	top: 1%;
-	left: 29%;
+	top: 5px;
+	left: 32%;
 	text-align: center;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 4vw;
+	font-size: 51.2px;
 	transform: rotateY(28deg) rotateX(10deg);
 }
 .peaple{
@@ -262,7 +203,7 @@ html{
 }
 
 .block__for_neon{
-	margin-top: 1%;
+	margin-top: 5px;
 	width: 55%;
 	height: auto;
 	border-color: white;
@@ -278,10 +219,11 @@ html{
 	border-width: 1px;
 	border-color: #ef0001;
 	margin: 0 auto;
-	margin-top: 2%;
+	margin-top: 5px;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3.3vw;
+	font-size: 42.24px;
+	padding-bottom: 8px;
 }
 .channel{
 	color: #ef0001;
@@ -295,11 +237,11 @@ html{
 }
 .progres_bar{
 	width:55%;
-	height: 3vw;
+	height: 38.4px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: white;
-	margin-top: 3%;
+	margin-top: 16px;
 	margin-left: 5%;
 	border-radius: 20px;
 	position: relative;
@@ -331,8 +273,8 @@ html{
 	font-family: 'Caveat', cursive;
 	font-weight: bold;
 	color: black;
-	font-size: 2.1vw;
-	line-height: 3vw;
+	font-size: 26.88px;
+	line-height: 38.4px;
 }
 
 
@@ -345,13 +287,13 @@ html{
 	border-width: 1px;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2.4vw;
-	margin-top: 3%;
+	font-size: 30.72px;
+	margin-top: 16px;
 	margin-right: 10%;
 }
 .text_progres1{
 	width: 90%;
-	height: 38px;
+	height: auto;
 	position: absolute;
 	z-index: 2;
 	border-color: white;
@@ -360,8 +302,8 @@ html{
 	font-family: 'Caveat', cursive;
 	font-weight: bold;
 	color: black;
-	font-size: 2.1vw;
-	line-height: 3vw;
+	font-size: 26.88px;
+	line-height: 38.4px;
 }
 .progres_bar1:before{
 	position: absolute;
@@ -375,11 +317,11 @@ html{
 
 .progres_bar1{
 	width:55%;
-	height: 3vw;
+	height: 38.4px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: white;
-	margin-top: 3%;
+	margin-top: 16px;
 	margin-left: 5%;
 	border-radius: 20px;
 	position: relative;
@@ -399,10 +341,9 @@ html{
 	border-width: 1px;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2.4vw;
-	margin-top: 3%;
+	font-size: 30.72px;
+	margin-top: 16px;
 	margin-right: 10%;
-	text-align: center;
 }
 
 .text_progres2{
@@ -416,8 +357,8 @@ html{
 	font-family: 'Caveat', cursive;
 	font-weight: bold;
 	color: black;
-	font-size: 2.1vw;
-	line-height: 3vw;
+	font-size: 26.88px;
+	line-height: 38.4px;
 }
 .progres_bar2:before{
 	position: absolute;
@@ -431,11 +372,11 @@ html{
 
 .progres_bar2{
 	width:55%;
-	height: 3vw;
+	height: 38.4px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: white;
-	margin-top: 3%;
+	margin-top: 16px;
 	margin-left: 5%;
 	border-radius: 20px;
 	position: relative;
@@ -448,15 +389,16 @@ html{
 
 .text_for_progresbar2{
 	float: right;
-	width: 36%;
+	width: 26%;
 	height: auto;
 	border-color: #ef0001;
 	border-bottom-style: solid;
 	border-width: 1px;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2.3vw;
-	margin-top: 3%;
+	font-size: 30.72px;
+	margin-top: 16px;
+	margin-right: 10%;
 }
 .text_progres3{
 	width: 38%;
@@ -469,8 +411,8 @@ html{
 	font-family: 'Caveat', cursive;
 	font-weight: bold;
 	color: black;
-	font-size: 2.1vw;
-	line-height: 3vw;
+	font-size: 26.88px;
+	line-height: 38.4px;
 }
 .progres_bar3:before{
 	position: absolute;
@@ -484,11 +426,11 @@ html{
 
 .progres_bar3{
 	width:55%;
-	height: 3vw;
+	height: 38.4px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: white;
-	margin-top: 3%;
+	margin-top: 16px;
 	margin-left: 5%;
 	border-radius: 20px;
 	position: relative;
@@ -501,16 +443,16 @@ html{
 
 .text_for_progresbar3{
 	float: right;
-	width: 16%;
+	width: 26%;
 	height: auto;
 	border-color: #ef0001;
 	border-bottom-style: solid;
 	border-width: 1px;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2.3vw;
-	margin-top: 3%;
-	margin-right: 20%;
+	font-size: 30.72px;
+	margin-top: 16px;
+	margin-right: 10%;
 }
 
 .progres_bar4{
@@ -549,22 +491,21 @@ html{
 }  
 .block_left_for_video{
 	width: 50%;
-	height: 27vw;
 	border-color:white;
 	margin-left: 1%;
 }
 
 .video{
 	margin-left: 3%;
-	margin-top: 9%;
+	margin-top: 60px;
 	transform: rotateX(20deg) rotate(-8deg);
-	border-color: #e8e2e6;
+	border-color:red;
 	border-style: solid;
 	border-top-color: black;
 	border-left-color: black;
 	border-radius: 10px;
 	border-width: 4px;
-	box-shadow: 5px 5px 40px #e8e2e6;
+	box-shadow: 5px 5px 40px red;
 	width: 90%;
 	height: auto;
 }
@@ -573,7 +514,6 @@ html{
 	width: 49%;
 	height: auto;
 	border-color:  white;
-	box-sizing: border-box;
 	position: relative;
 	top: 0;
 	perspective: 1000px;
@@ -592,55 +532,51 @@ html{
 	color: white;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 5vh;
+	font-size: 64px;
 	box-sizing: border-box;
-	line-height: 5vh;
+	line-height: 64px;
 	transform: rotateY(20deg);
-	margin-bottom: 2%;
+	margin-bottom: 10px;
 }
 
 .tishe{
-	color: #e8e2e6;
+	color:red;
 }
 
 
 .iframe{
 	width: 100%;
-	height: 20vw;
+	min-height: 270px;
 }
 
 
            /*Блок после Рюка и видео*/
 .block_for_text_history{
-	margin-top: 1%;
+	margin-top: 40px;
 	width: 90%;
 	height: auto;
 	background-color: black;
 	box-sizing: border-box;
 	padding: 5px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	perspective: 1000px;
 	overflow: hidden;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-width: 0.1vw;
-	border-color: #e8e2e6;
+	border-width: 2px;
+	border-color: red;
 	
 }	
 
 .left_block_image{
-	width: 400px;
-	height: 500px;
+	width: 40%;
 	border-color: white;
 	box-sizing: border-box;
 	float: left;
 	overflow: hidden;
 }	   
 
-
-.img_left_block_img{
-	width: 100%;
-	height: auto;
-}
 
 .left_block_image img{
 	width: 100%;
@@ -653,24 +589,23 @@ html{
 	width: 59%;
 	height: auto;
 	transform: rotateY(-20deg);
-	margin-top: 3%;
-	margin-bottom: 2%;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 
 
 
 .avtorskie_istorii{
-	color: #e8e2e6;
+	color:red;
 	width: 60%;
 	margin: 0 auto;
-	font-size: 40px;
 	border-style: solid;
-	line-height: 40px;
+	line-height: 70px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
-	font-size: 5vh;
-	box-shadow: 5px 5px 100px 5px #e8e2e6;
+	font-size: 64px;
+	box-shadow: 5px 5px 100px 5px red;
 	animation-name: history;
 	animation-duration: 900ms;
 	animation-iteration-count: infinite;
@@ -699,12 +634,12 @@ html{
 	color: white;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3vw;
+	font-size: 38.4px;
 	line-height: 40px;
 	transition-duration: 300ms;
 	transition-timing-function: easy-out;
 	margin: 0 auto;
-	margin-top: 3%;
+	margin-top: 20px;
 	
 }
 
@@ -722,12 +657,13 @@ html{
 	width: 90%;
 	height: auto;
 	background-color: black;
-	margin-top: 1%;
+	margin-top: 40px;
 	overflow: hidden;
 	perspective: 1000px;
 	border-bottom-style: solid;
-	border-color: #d7d4d6;
-	border-width: 0.1vw;
+	border-color: red;
+	border-width: 2px;
+	padding-bottom: 30px;
 }	
 
 .left_block_for_text_for{
@@ -737,8 +673,8 @@ html{
 	box-sizing: border-box;
 	float: left;
 	transform: rotateY(14deg);
-	margin-top: 3%;
-	margin-bottom: 3%;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }	
 
 
@@ -750,12 +686,12 @@ html{
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	color: white;
-	font-size: 3vw;
+	font-size: 38.4px;
 }	 
 
 .red_color_for_spinsor{
-	color: #e8e2e6;
-	font-size: 4vw;
+	color:red;
+	font-size: 51.2px;
 	animation-name: sponsor;
 	animation-duration: 7s;
 	animation-fill-mode: forward;
@@ -773,9 +709,10 @@ html{
 	text-align: center;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 6vw;
-	line-height: 120%;
+	font-size: 76.8px;
+	line-height: 100px;
 	transition-duration: 500ms;
+	margin-top: 30px;
 }
 
 .button_for_spinsor:hover{
@@ -803,13 +740,15 @@ html{
 	width: 90%;
 	height: auto;
 	background-color: black;
-	margin-top: 1%;
+	margin-top: 10px;
 	overflow: hidden;
 	box-sizing: border-box;
 	perspective: 1000px;
 	border-bottom-style: solid;
-	border-color: #d0cdcf;
-	border-width: 0.1vw;
+	border-color: red;
+	border-width: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }   
 
 .block_left_for_five_body{
@@ -829,7 +768,7 @@ html{
 
 
 .block_right_for_five_body{
-	margin-top: 10%;
+	margin-top: 50px;
 	width: 50%;
 	height: auto;
 	float: right;
@@ -847,12 +786,12 @@ html{
 	color: white;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3vw;
-	line-height: 170%;
+	font-size: 38.4px;
+	line-height: 80px;
 }
 
 .five_block_color{
-	color: #d0cdcf;
+	color: red;
 }
 
 .button_for_sotrudnechestvo{
@@ -864,8 +803,8 @@ html{
 	color: white;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
-	line-height: 170%;
-	font-size: 4vw;
+	line-height: 100px;
+	font-size: 51.2px;
 	margin: 0 auto;
 	transition-duration: 500ms;
 }
@@ -883,11 +822,11 @@ html{
 	width: 90%;
 	height: auto;
 	background-color: black;
-	margin-top: 1%;
-	padding-bottom: 4%;
+	margin-top: 10px;
+	padding-bottom: 40px;
 	border-bottom-style: solid;
-	border-color: #d0cdcf;
-	border-width: 0.1vw;
+	border-color: red;
+	border-width: 2px;
 
 }			
 
@@ -895,7 +834,7 @@ html{
 	width: 100%;
 	height: auto;
 	border-color: white;
-	margin-top: 1%;
+	margin-top: 10px;
 }
 
 .image_8_for_six_block{
@@ -910,15 +849,17 @@ html{
 	color: white;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2vw;
+	font-size: 35.6px;
 	word-spacing: 15px;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 .button_for_group_vk{
 	width: 100%;
 	height: auto;
 	border-color: white;
-	margin-top: 2%;
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	perspective: 1000px;
@@ -927,17 +868,17 @@ html{
 	width: 20%;
 	height: auto;
 	border-style: solid;
-	border-color: #d0cdcf;
+	border-color: red;
 	border-radius: 15px;
 	border-width: 2px;
 	color: white;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 2vw;
+	font-size: 25.6px;
 	text-align: center;
 	line-height: 300%;
 	font-weight:bold;
 	transition-duration: 300ms;
-	box-shadow: 0px 0px 100px 2px #d0cdcf;
+	box-shadow: 0px 0px 100px 2px red;
 }
 
 .button_for_group:hover{
@@ -954,7 +895,7 @@ html{
 	border-width: 2px;
 	color: white;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 2vw;
+	font-size: 25.6px;
 	text-align: center;
 	line-height: 300%;
 	font-weight:bold;
@@ -979,14 +920,14 @@ html{
 }
 .button_vasi_history:hover:before{
 	top: 70%;
-	background-color: #d0cdcf;
+	background-color: red;
 }
 
 
 .button_vasi_history:hover{
 	transform: scale(1.0);
-	border-color: #d0cdcf;
-	box-shadow: 0px 0px 10px #d0cdcf;
+	border-color: red;
+	box-shadow: 0px 0px 10px red;
 	color: #6D6D6D;
 }
 
@@ -994,17 +935,17 @@ html{
 	width: 20%;
 	height: auto;
 	border-style: solid;
-	border-color: #d0cdcf;
+	border-color: red;
 	border-radius: 15px;
 	border-width: 2px;
 	color: white;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 2vw;
+	font-size: 25.6px;
 	text-align: center;
 	line-height: 300%;
 	font-weight:bold;
 	transition-duration: 300ms;
-	box-shadow: 0px 0px 100px 2px #d0cdcf;
+	box-shadow: 0px 0px 100px 2px red;
 }
 .button_for_video_vk:hover{
 	transform: scale(0.9);
@@ -1016,10 +957,10 @@ html{
 	width: 90%;
 	height: auto;
 	background-color: black;
-	margin-top: 1%;
-	padding: 1%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	margin-top: 10px;
+	padding: 10px;
+	padding-top: 90px;
+	padding-bottom: 50px;
 	box-sizing:border-box;
 	perspective: 1000px;
 	
@@ -1036,12 +977,12 @@ html{
 	width: 25%;
 	height: auto;
 	transform: rotateY(30deg) translateZ(-110px);
-	color: #d0cdcf;
+	color: red;
 	border-bottom-style: solid;
-	border-color: #d0cdcf;
+	border-color: red;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3vw;
+	font-size: 38.4px;
 }
 
 .image_9_one{
@@ -1058,7 +999,7 @@ html{
 	border-color: white;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3vw;
+	font-size: 38.4px;
 	color: white;
 }
 
@@ -1076,8 +1017,8 @@ html{
 	border-color: redseven_block;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3vw;
-	color: #d0cdcf;
+	font-size: 38.4px;
+	color: red;
 }
 
 .image_9_three{
@@ -1093,10 +1034,10 @@ html{
 	width: 90%;
 	height: auto;
 	background-color: black;
-	margin-top: 1%;
+	margin-top: 10px;
 	border-bottom-style: solid;
-	border-color: #d0cdcf;
-	border-width: 0.1vw;
+	border-color: red;
+	border-width: 2px;
 }
 
 .text_for_progres_bar_severn{
@@ -1108,11 +1049,11 @@ html{
 	border-color: red;
 	border-width: 1px;
 	margin: 0 auto;
-	margin-top: 5%;
-	font-size: 4vw;
+	margin-top: 50px;
+	font-size: 51.2px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
-	line-height: 160%;
+	line-height: 100px;
 }
 
 .theart{
@@ -1133,13 +1074,14 @@ html{
 
 	border-width: 2px;
 	margin: 0 auto;
-	margin-top: 3%;
+	margin-top: 30px;
 	position: relative;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
 	border-width: 1px;
-	line-height: 450%;
+	line-height: 90px;
+	text-align: center;
 }
 
 .progres_bar_seven:before{
@@ -1161,7 +1103,7 @@ html{
 	color: white;
 	border-width: 2px;
 	left: 30%;
-	font-size: 3vw;
+	font-size: 38.4px;
 	font-family: 'Caveat', cursive;
 }
 
@@ -1172,18 +1114,18 @@ html{
 	border-color: white;
 	border-radius: 20px;
 	margin: 0 auto;
-	margin-top: 4%;
+	margin-top: 40px;
 	color: white;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 5vw;
+	font-size: 64px;
 	transition-duration: 400ms;
 }
 
 .button_eight_block:hover{
 	transform: scale(0.9);
 	color: red;
-	box-shadow: 0px 0px 100px 2px #d0cdcf;
+	box-shadow: 0px 0px 100px 2px red;
 }
 
 .eight_block_image_bottom{
@@ -1191,7 +1133,7 @@ html{
 	height: auto;
 	border-color: white;
 	margin: 0 auto;
-	margin-top: 2%;
+	margin-top: 20px;
 	box-sizing: border-box;
 }
 
@@ -1211,7 +1153,7 @@ html{
 	margin-top: 3%;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2vw;
+	font-size: 29.6px;
 	text-align: center;
 	line-height: 200%;
 }
@@ -1228,8 +1170,8 @@ html{
 	background-color: black;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-	margin-top: 1%;
-	padding: 1%;
+	margin-top: 20px;
+	padding: 20px;
 	display: flex;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -1315,17 +1257,17 @@ html{
 	width: 60%;
 	height: auto;
 	border-bottom-style: solid;
-	border-color: #d0cdcf;
+	border-color: red;
 	box-sizing: border-box;
 	border-width: 2px;
 	margin: 0 auto;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3vw;
+	font-size: 38.4px;
 	text-align: center;
 }
 .probel{
-	color: #d0cdcf;
+	color: red;
 }
 .text_by_Dmitriy{
 	border-color: white;
@@ -1334,7 +1276,7 @@ html{
 	color: white;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 2vw;
+	font-size: 25.6px;
 	font-family: 'Amatic SC', cursive;
 }
 
@@ -1349,7 +1291,7 @@ html{
 	width: 90%;
 	height: auto;
 	background-color: black;
-	padding: 1%;
+	padding: 20px;
 	display: flex;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -1531,12 +1473,29 @@ a{
 	width: 600px;
 	}
 	
+
+	.
 	
 	
 	
 
 
 }*/
+
+.footer{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	color: rgb(112, 112, 112);
+	transition-duration: 300ms;
+}
+
+.footer:hover{
+	color: rgba(255, 0, 0, 0.63);
+}
 @media screen and (min-width:416px) and (max-width: 768px){
 	
 	
@@ -1905,16 +1864,16 @@ a{
 
 .text_for_progresbar3{
 	float: right;
-	width: 16%;
+	width: 29%;
 	height: auto;
 	border-color: #ef0001;
 	border-bottom-style: solid;
 	border-width: 1px;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 6.4vw;
-	margin-top: 1%;
-	margin-right: 22%;
+	font-size: 4.4vw;
+	margin-top: 2%;
+	margin-right: 9%;
 }
 
 .progres_bar4{
@@ -1980,8 +1939,8 @@ a{
 	width: 100%;
 	height: 500px;
 	border-color:  white;
-	
 	margin: 0 auto;
+	margin-top: 50px;
 	/*transform: rotateY(-5deg);*/
 	transform: none;
 	}
@@ -3020,6 +2979,7 @@ a{
 	margin: 0 auto;
 	/*transform: rotateY(-5deg);*/
 	transform: none;
+	margin-top: 110px;
 	}
 	
 	.empty_test{
